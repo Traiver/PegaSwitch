@@ -1,0 +1,34 @@
+{
+  "name": "pegaswitch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "debug.js",
+  "scripts": {
+    "start": "node start.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daeken/Pegaswitch.git"
+  },
+  "author": "Adam Brady <adam@boxxen.org>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daeken/Pegaswitch/issues"
+  },
+  "homepage": "https://github.com/daeken/Pegaswitch#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "browserify": "^14.1.0",
+    "colors": "^1.1.2",
+    "dnsd": "^0.9.6",
+    "express": "^4.15.2",
+    "ip": "^1.1.5",
+    "repl.history": "^0.1.4",
+    "reserved-words": "^0.1.1",
+    "string-argv": "0.0.2",
+    "watchify": "^3.9.0",
+    "ws": "^2.2.0",
+    "mkdirp": "^0.5.1"
+  }
+}
